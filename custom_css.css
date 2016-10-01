@@ -1,0 +1,182 @@
+/* Enter Your Custom CSS Here */
+
+body {
+	line-height: 1.75em;
+}
+
+h1.entry-title {
+	font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  display: block;
+  padding: 10px 20px 10px 10px;
+  text-transform: uppercase;
+}
+
+h2 {
+	font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  display: block;
+  padding: 10px 20px 10px 10px;
+  text-transform: uppercase;
+}
+
+
+#id_scrolldown:before {
+  font-size: 40px;
+  opacity: 1;
+
+}
+
+#id_scrolldown:before {
+ -webkit-animation-name: fadeInDown; 
+  -moz-animation-name: fadeInDown; 
+    animation-name: fadeInDown; 
+   -webkit-animation-duration: 2s; 
+    animation-duration: 2s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both; 
+    -webkit-animation-timing-function: ease-in-out; 
+    animation-timing-function: ease-in-out; 
+  -webkit-animation-iteration-count: 9999; /* Chrome, Safari, Opera */
+    animation-iteration-count: 9999;
+}
+
+
+
+@-webkit-keyframes fadeInDown { 
+    0% { 
+        opacity: 0; 
+        -webkit-transform: translateY(-20px); 
+    	-moz-transform: translateY(-20px);
+      	-o-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+    } 
+    50% {
+     opacity: 1; 
+       
+  
+    }
+    100% { 
+        opacity: 0; 
+        -webkit-transform: translateY(20px); 
+        -moz-transform: translateY(20px); 
+      	-o-transform: translateY(20px); 
+        -ms-transform: translateY(20px); 
+    } 
+} 
+
+@-moz-keyframes fadeInDown { 
+    0% { 
+        opacity: 0; 
+       -moz-transform: translateY(-20px);
+         } 
+    50% {
+     opacity: 1; 
+       
+  
+    }
+    100% { 
+        opacity: 0; 
+         -moz-transform: translateY(20px); 
+        } 
+} 
+
+@keyframes fadeInDown { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(-20px); 
+        -moz-transform: translateY(20px); 
+      	-o-transform: translateY(20px); 
+        -ms-transform: translateY(20px); 
+    } 
+  50% {
+     opacity: 1; 
+      
+  
+    }
+   100% { 
+        opacity: 0; 
+        -webkit-transform: translateY(20px); 
+        -moz-transform: translateY(20px); 
+      	-o-transform: translateY(20px); 
+        -ms-transform: translateY(20px); 
+    } 
+}
+
+#primary, #secondary {
+display:block;
+}
+
+table#t1 {
+border-spacing: 6px !important;
+border-collapse: separate !important;
+border: none !important;
+}
+
+table#t1 thead tr th.t1 {
+border-radius: 40px;
+border: none !important;
+}
+
+table#t1 thead tr th.t1#n1 {
+background: none !important;
+  background-color: #66aa66 !important;
+}
+
+table#t1 thead tr th.t1#n2{
+  
+background: none !important;
+background-color: #66aa66 !important;
+}
+
+table#t1 thead tr th.t1#n3{
+  
+background: none !important;
+background-color: #6caacc !important;
+}
+
+table#t1 thead tr th.t1#n4{
+  
+background: none !important;
+background-color: #d18d1f !important;
+}
+
+p a {
+color: #d18d1f!important;
+}
+
+#scrollUp {
+background-color: rgba(0, 0, 0, 0.75);
+padding: 5px;
+}
+
+.menu-item a img {
+   
+    padding-bottom: 4px;
+    padding-left: 10px;
+}
+
+#cookie-notice .button.bootstrap {
+background-color: #404040;
+ background-image: none;
+  
+}
+
+#cookie-notice .button.bootstrap:hover, #cookie-notice .button.bootstrap:focus {
+background-color: #d18d1f;
+ background-image: none;
+}
+
+table#t3, table#t4, table#t5, table#t6 {
+	float:left;
+}
+
+table#t3 tbody tr, table#t4 tbody tr, table#t5 tbody tr, table#t6 tbody tr {
+	height: 370px;
+}
