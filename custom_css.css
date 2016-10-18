@@ -1,7 +1,179 @@
-/* Enter Your Custom CSS Here */
+/* dont laugh at my amateur css sweety */
 
 body {
 	line-height: 1.75em;
+}
+
+#secondary {
+	background-color: #f5f5f5;
+  margin-right: 0px !important;
+  margin-left: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: inset 1px 0px 2px #d9d9d9;
+}
+
+.site-cover, .video-site-cover {
+	border-radius: 10px;
+}
+
+.uptimerobot {
+  text-align: left;
+}
+
+#text-18 {
+	text-align: left !important;
+}
+
+.current_page_item {
+	background-color: #d18d1f;
+}
+
+.current_page_item a {
+	color: #fff !important;
+}
+
+
+
+.widget_uptimerobot .uptimerobot .status.stat2 {
+  background-color: #4da74d;
+font-size: 0;
+height: 16px;
+width: 0px;
+margin: 0;
+display: inline-block;
+padding: 3px;
+}
+
+.widget h1 {
+	text-align: left;
+    color: #707070;
+}
+
+.widget .textwidget {
+	text-align: center;
+    display: block;
+}
+
+
+.widget_uptimerobot {
+	text-align: left !important;
+}
+
+.link_international_en {
+  text-align: left;
+ 	color: #d18d1f !important;
+  
+}
+
+.link_international_img {
+  width: 35px;
+height: 20px;
+padding-top: 10px;
+}  
+ 
+.link_international_fr {
+  text-align: left;
+ 	color: #d18d1f !important;
+}
+.link_international_ru {
+  text-align: left;
+ 	color: #d18d1f !important;
+}
+.link_international_se {
+  text-align: left;
+ 	color: #d18d1f !important;
+}
+.link_international_it {
+  text-align: left;
+ 	color: #d18d1f !important;
+}
+
+.btn-neutral {
+	width: 30px;
+  	border-radius: 2px;
+	background-color: #fff;
+    padding:10px;
+    margin-top: 5px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+  float:left;
+ 
+}
+
+.btn-neutral a {
+	  font-size:10px;
+}
+
+.btn-neutral:hover {
+	
+	background-color: #f9f9f9;
+  
+}
+
+.btn-neutral-inline, .btn-neutral-inline:visited {
+	width: 28%;
+  	border-radius: 2px;
+	background-color: #fff;
+    padding:10px;
+    margin: 5px;
+  box-shadow: 0px 1px 5px rgba(0,0,0,0.3);
+  float:left;
+  text-align: center;
+  display: inline-block; 
+  font-size: 30px; 
+  text-align: center;
+   color: #707070;
+}
+
+
+
+.btn-neutral-inline:hover {
+	background-color: #f9f9f9;
+    color: #262626;
+}
+
+.btn-teamspeak {  
+  	width: 230px;
+  	border-radius: 2px;
+	background-color: #004E70;
+    padding:10px;
+}
+
+.btn-teamspeak:hover {  
+  	background-color: #003657;
+}
+
+.btn-einsaetze {  
+  	width: 230px;
+  	border-radius: 2px;
+	background-color: #6a6;
+    padding:10px;
+}
+
+.btn-einsaetze:hover {  
+	background-color: #4D914D;
+}
+
+.rpwe-thumb {
+  border: 1px solid #c0c0c0 !important;
+  box-shadow: none !important;
+  margin: 2px 10px 2px 0;
+  padding: 0px !important;
+  border-radius: 200px !important;
+}
+
+.rpwe-time {
+	display: none;
+}
+
+.rpwe-block h3{
+	margin-top: 9px !important;
+}
+
+.rpwe-li:hover {
+  box-shadow: none;
+  background-color: #f0f0f0;
+  display: block;
 }
 
 h1.entry-title {
@@ -19,8 +191,8 @@ h2 {
 	font-size: 20px;
   margin-bottom: 10px;
   margin-top: 40px;
-  background-color: rgba(0,0,0,0.5);
-  color: #fff;
+  background-color: rgba(0,0,0,0.1);
+  color: #707070;
   display: block;
   padding: 10px 20px 10px 10px;
   text-transform: uppercase;
@@ -173,10 +345,23 @@ background-color: #d18d1f;
  background-image: none;
 }
 
-table#t3, table#t4, table#t5, table#t6 {
+table#t3, table#t4, table#t5, table#t6, table#t7, table#t8, table#t9   {
 	float:left;
+  	
 }
 
 table#t3 tbody tr, table#t4 tbody tr, table#t5 tbody tr, table#t6 tbody tr {
 	height: 370px;
+}
+
+table#t7 tbody tr, table#t8 tbody tr {
+	height: 310px;
+}
+
+table#t7 tbody tr td, table#t8 tbody tr td,  table#t9 tbody tr td {
+	padding-top: 20px; 
+}
+
+#t7, #t8, #t9 {
+	margin-top: 0px !important;
 }
